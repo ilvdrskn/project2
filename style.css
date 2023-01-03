@@ -39,7 +39,8 @@ main.container{
 
 .picholder{
     background: url("./images/image-qr-code.png") no-repeat 50% 50%;
-    background-size:cover
+    background-size:cover;
+    flex-shrink: 0;
 }
 
 p{
@@ -53,4 +54,27 @@ h1{
     font-weight: 700;  
 }
 
+@media screen and (max-width: 600px) and (min-width:300px) {
+    main.container{
+        width:100vw;
+        max-height:100vh;
+    }
+
+    .cardholder{
+        max-width:80%;
+        height: 70%;
+    }
+
+    .picholder{
+        flex-basis:50%;
+    }
+
+    p{
+        font-size:60%;
+    }
+
+    h1{
+        font-size:80%;
+    }
+}
 
