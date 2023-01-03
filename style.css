@@ -58,10 +58,11 @@ h1{
     main.container{
         width:100vw;
         max-height:100vh;
+        padding:5px;
     }
 
     .cardholder{
-        max-width:80%;
+        width:50%;
         height: 70%;
     }
 
