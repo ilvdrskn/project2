@@ -22,7 +22,7 @@ main.container{
 
 .cardholder{
     width:30%;
-    height:80%;
+    height:100%;
     display:flex;
     flex-direction: column;
     background-color: white;
@@ -45,11 +45,12 @@ main.container{
 p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+    font-size:150%;
 }
 
-p:first-child{
+h1{
     color:hsl(218, 44%, 22%);
-    font-weight: 700;
+    font-weight: 700;  
 }
 
 
