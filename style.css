@@ -47,13 +47,13 @@ main.container{
 p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size:1em;
+    font-size:2em;
 }
 
 h1{
     color:hsl(218, 44%, 22%);
     font-weight: 700; 
-    font-size:1.1em; 
+    font-size:4em; 
 }
 
 @media screen and (max-width: 600px) and (min-width:300px) {
