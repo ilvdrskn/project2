@@ -10,7 +10,7 @@
 body{
     background-color: hsl(212, 45%, 89%);
     font-family: RobotSlab;
-    font-size:15px;
+    font-size:16px;
 }
 
 main.container{
@@ -47,13 +47,13 @@ main.container{
 p{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
-    font-size:2em;
+    font-size:1.2em;
 }
 
 h1{
     color:hsl(218, 44%, 22%);
     font-weight: 700; 
-    font-size:4em; 
+    font-size:2em; 
 }
 
 @media screen and (max-width: 600px) and (min-width:300px) {
